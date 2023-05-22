@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    background-color: rgba(255,255,225, 0.5);
+  }
+  
+  form {
+    margin: 20px 0;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    background-color: rgba(255,255,225, 0.7);
+    width: 220px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 3px solid #2e151b;
+  }
+  
+  input[type="button"],
+  input[type="reset"] {
+    padding: 5px 10px;
+    background-color:rgba(255,255,225, 0.5); ;
+    color: #2e151b;
+    border: 2px solid #2e151b;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  #result {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255,255,225, 0.5);
+    border: 3px solid #2e151b;
+    border-radius: 3px;
+  }
+  
+  a {
+    color: maroon;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  

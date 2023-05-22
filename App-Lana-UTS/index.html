@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Input Nilai Mahasiswa</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>Input Nilai Mahasiswa</h1>
+
+  <form id="nilaiForm">
+    <label for="nim">NIM:</label>
+    <input type="text" id="nim" required><br>
+
+    <label for="nama">Nama:</label>
+    <input type="text" id="nama" required><br>
+
+    <label for="matkul">Mata Kuliah:</label>
+    <select id="matkul">
+      <option value="">Pilih Mata Kuliah</option>
+      <option>PPKn</option>
+                <option>B.Indonesia</option>
+                <option>Praktek Pemrograman</option>
+                <option>Sistem Operasi</option>
+                <option>Kalkulus</option>
+                <option>Diskrit</option>
+                <option>Algoritma</option>
+                <option>Arsitektur Komputer</option>
+                <option>Desain PL</option>
+                <option>Pemrograman Komputer</option>
+    </select><br>
+
+    <label for="nilai">Nilai Akhir:</label>
+    <input type="number" id="nilai" required><br>
+
+    <input type="button" value="TAMPIL" onclick="tampilkanData()">
+    <input type="reset" value="RESET">
+  </form>
+
+  <div id="result"></div>
+
+  <a href="data_array.html">Data Array</a>
+  <a href="profil.html">Profil Biodata</a>
+</body>
+</html>
